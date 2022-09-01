@@ -285,6 +285,13 @@ Run ByteTrack:
 ```shell
 cd <ByteTrack_HOME>
 python3 tools/track.py -f exps/example/mot/yolox_x_ablation.py -c pretrained/bytetrack_ablation.pth.tar -b 1 -d 1 --fp16 --fuse
+
+tested correctly with mot17 dataset
+python3 tools/track.py -f exps/example/mot/yolox_s_mot17_half.py -c pretrained/yolox_s_mot17_half.pth.tar -b 1 -d 1 --fp16 --fuse
+
+
+python3 tools/track.py -f exps/example/trackin/yolox_s_trackin.py -c pretrained/bytetrack_ablation.pth.tar -b 1 -d 1 --fp16 --fuse
+```
 ```
 You can get 76.6 MOTA using our pretrained model.
 
