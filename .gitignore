@@ -12,6 +12,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+dtasets/trackin/
 eggs/
 .eggs/
 lib/
